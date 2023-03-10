@@ -7,16 +7,19 @@
 
 }
 nav {
-    display:inline;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
 
 }
 li {
-    display:inline;
+    display:flex;
     font-size:40px;
 }
 
 ul {
-    display:inline;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 h1 {
