@@ -1,0 +1,13 @@
+.header-wrapper {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: flex;
+
+}
+img {
+    display:inline;
+}
+li {
+    display:inline;
+}
