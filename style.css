@@ -2,12 +2,23 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: flex;
+    flex-wrap: wrap;
+    background-color:lightgray
 
 }
-img {
+nav {
     display:inline;
+
 }
 li {
     display:inline;
+    font-size:40px;
+}
+
+ul {
+    display:inline;
+}
+
+h1 {
+    font-size: 40px;
 }
