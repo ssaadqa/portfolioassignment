@@ -9,19 +9,33 @@
 nav {
     display:flex;
     flex-wrap: wrap;
-    flex-direction:column;
 
 }
 li {
-    display:flex;
     font-size:40px;
 }
 
 ul {
     display:flex;
     flex-wrap: wrap;
+
 }
 
 h1 {
     font-size: 40px;
+}
+
+#backgroundhero {
+    height:150px;
+    background-color:lightgray;
+}
+div {
+    display:flex;
+}
+
+.align1 {
+    margin-left:8%;
+    margin-right:3%;
+    border-right: 8px lightsalmon;
+
 }
