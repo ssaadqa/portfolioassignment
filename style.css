@@ -35,7 +35,13 @@ div {
 
 .align1 {
     margin-left:8%;
-    margin-right:3%;
+    margin-right:10%;
     border-right: solid 8px lightsalmon;
+
+}
+
+.margintitle {
+    margin-right: 10%;
+    
 
 }
