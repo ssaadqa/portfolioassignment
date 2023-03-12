@@ -36,6 +36,6 @@ div {
 .align1 {
     margin-left:8%;
     margin-right:3%;
-    border-right: 8px lightsalmon;
+    border-right: solid 8px lightsalmon;
 
 }
