@@ -36,34 +36,26 @@ div {
     display:flex;
 }
 
-.align1 {
-    margin-left:10vw;
-    margin-right:5vw;
-    border-right: solid 8px lightsalmon;
+
+.sectionclass {
+    display:flex;
+    align-items: stretch;
+    justify-content:space-between;
 
 }
-
-.margintitle {
-    margin-right: 1em;
-    
-
-}
-#marginright {
-    margin: 5vh 5vw;
+.sectionclass > h2 {
+    flex: 0 0 20%;
+    border-right: 8px solid lightgray;
+    text-align:right;
+    padding-right:3vw;
 }
 
-#largeimage {
-    width: 10vw;
-    height: 10vh;
-    background-color: lightgray;
-    margin-left: 6vw;
-}
-.borderright {
-    border-right: 8px solid blue;
+.sectionclass > div {
+    flex:0 0 77%;
+    justify-content:flex-start;
 }
 
-#alignwork {
-    margin-left:10vw;
-    margin-right:8.8vw;
+.marginleft {
+    margin-left: clamp(10px,2vw,20px);
 
 }
