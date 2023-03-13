@@ -12,7 +12,10 @@ nav {
 
 }
 li {
-    font-size:40px;
+    font-size: clamp(16px,4vw,40px);
+    margin-left: 2vw;
+    margin-right: 2vw;
+
 }
 
 ul {
@@ -22,11 +25,11 @@ ul {
 }
 
 h1 {
-    font-size: 40px;
+    font-size:clamp(20px,8vw,60px);
 }
 
 #backgroundhero {
-    height:150px;
+    height:10vh;
     background-color:lightgray;
 }
 div {
@@ -34,8 +37,8 @@ div {
 }
 
 .align1 {
-    margin-left:8%;
-    margin-right:10%;
+    margin-left:10vw;
+    margin-right:5vw;
     border-right: solid 8px lightsalmon;
 
 }
@@ -43,5 +46,24 @@ div {
 .margintitle {
     margin-right: 1em;
     
+
+}
+#marginright {
+    margin: 5vh 5vw;
+}
+
+#largeimage {
+    width: 10vw;
+    height: 10vh;
+    background-color: lightgray;
+    margin-left: 6vw;
+}
+.borderright {
+    border-right: 8px solid blue;
+}
+
+#alignwork {
+    margin-left:10vw;
+    margin-right:8.8vw;
 
 }
