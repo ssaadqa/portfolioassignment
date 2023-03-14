@@ -28,6 +28,11 @@ h1 {
     font-size:clamp(20px,8vw,60px);
 }
 
+h2 {
+    font-family: Verdana, Sans-serif;
+    font-size:clamp(20px,8vw,60px)
+}
+
 #backgroundhero {
     height:10vh;
     background-color:lightgray;
@@ -58,4 +63,17 @@ div {
 .marginleft {
     margin-left: clamp(10px,2vw,20px);
 
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo2 {
+    width: 100px;
+    height: 100px;
+}
+
+#marginsyedqadri {
+    margin: 10vh 10vw;
 }
