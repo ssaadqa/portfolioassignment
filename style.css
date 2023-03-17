@@ -1,14 +1,16 @@
+header {
+    background-color:lightgray;
+}
 .header-wrapper {
     display:flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color:lightgray
 
 }
 nav {
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap:flex;
 
 }
 li {
@@ -35,10 +37,6 @@ h2 {
 
 #backgroundhero {
     height:10vh;
-    background-color:lightgray;
-}
-div {
-    display:flex;
 }
 
 
@@ -59,10 +57,12 @@ div {
 .sectionclass > div {
     flex:0 0 77%;
     justify-content:flex-start;
+    display: flex;
 }
 
 .marginleft {
     margin-left: clamp(10px,2vw,20px);
+    width:50%;
 
 }
 .logo {
@@ -78,3 +78,47 @@ div {
 #marginsyedqadri {
     margin: 10vh 10vw;
 }
+
+
+.project1 {
+    font-size: 20px;
+    width:400px;
+    height:200px;
+    background-color:beige;
+    text-align: center;
+    margin:10px;
+}
+
+.projectregular {
+    font-size: 20px;
+    width:195px;
+    height: 100px;
+    background-color:beige;
+    text-align:center;
+    margin:10px;
+}
+
+@media only screen and (max-width: 540px) {
+    .sectionclass > h2 {
+        min-width: 100px;
+        font-size: clamp(20px,4vw,60px);
+    }
+    .project1 {
+        width:200px;
+        height:100px;
+        font-size: 20px;
+    }
+    .projectregular {
+        width:95px;
+        height:50px;
+
+    }
+}
+
+.work {
+    margin-top: 10px;
+}
+.margintop {
+    margin-top:20px;
+}
+
